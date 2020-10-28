@@ -16,3 +16,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('blog');
 });
+
+Route::get('/showbook','showbookController@index' );
